@@ -1,0 +1,12 @@
+# Program to decide if Rohan can wear light clothes
+
+# Ask the user to input the current temperature
+temperature = int(input("Enter the current temperature in Celsius: "))
+
+# Decision-making using conditional statements
+if temperature >= 25:
+    print("It's warm enough. Rohan can wear light clothes!")
+elif 15 <= temperature < 25:
+    print("It's a bit cool. Rohan should wear something moderate like a hoodie or sweater.")
+else:
+    print("It's too cold. Rohan should wear warm clothes like a jacket and pullover.")
